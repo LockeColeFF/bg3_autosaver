@@ -32,3 +32,4 @@ try:
         while not is_bg3_running() or not is_process_focused("Baldur's Gate"):
             time.sleep(1)
 except KeyboardInterrupt:
+    print("\nScript stopped by user.")
